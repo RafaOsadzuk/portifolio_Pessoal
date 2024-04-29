@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafael Osadzuk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero-container">
+        <header>
+            <nav>
+                <ul>
+                    <li>Nome</li>
+                    <li>Projetos</li>
+                    <li>Contatos</li>
+                </ul>
+            </nav>
+        </header>
+        <h1>Procurando um desenvolvedor FullsStack</h1>
+        <svg class="arrows">
+            <path class="a1" d="M0 0 L30 32 L60 0"></path>
+            <path class="a2" d="M0 20 L30 52 L60 20"></path>
+            <path class="a3" d="M0 40 L30 72 L60 40"></path>
+        </svg>
+    </div>
+
+    <div id="nome" class="content-container">
+        <div class="profile-container">
+            <div class="profile-content">
+                <div class="profile-card">
+                    <img class="profile-image" src="./assets/WhatsApp Image 2024-04-14 at 21.51.23.jpeg">
+                    <span class="name-text">Rafael Souza Osadzuk</span>
+                    <span class="profile-text">   
+                    Transformando ideias em código 
+                    e desafios em soluções.
+                    </span>
+                    <div class="profile-social"> 
+                    <a href="https://github.com/RafaOsadzuk" target="_blank">
+                        <button class="profile-button">
+                            Conhecer Github!
+                        </button>
+                        
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/rafael-souza-osadzuk-7b952726b/" target="_blank">
+                        <button class="profile-button">
+                            Conhecer LinkedIn
+                        </button>
+                        
+                    </a>
+
+                    </div> 
+                    <div class="divider"></div>
+                    <div  class="icons-container">
+                        <img class="icon-item" src="./assets/js.png"/>
+                        <img class="icon-item" src="./assets/node.png"/>
+                        <img class="icon-item" src="./assets/react.png"/>
+                        <img class="icon-item" src="./assets/phplogo.png"/>
+
+                    </div>
+                </div>
+            </div>
+           
+            <div>
+                <p class="profile-sinopse">
+                    Como um futuro engenheiro de software em formação, concentro meus esforços no desenvolvimento web 
+                    e busco minha primeira experiência profissional para testar minhas habilidades e enfrentar desafios que 
+                    impulsionem meu crescimento nesta área. 
+                    Tenho experiência como desenvolvedor full-stack em React.js, PHP, Java e Node.js,
+                    e já trabalhei em projetos pessoais como uma página sobre Star Wars, utilizando uma API,
+                    e uma calculadora de IMC em PHP, baseada em dados de um site. Estou constantemente atualizado com as novas tecnologias do mercado,
+                    mantendo um foco dedicado ao aprendizado contínuo.
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="projetos" class="content-container">
+        <div class="project-container">
+            <div class="project-content">
+
+                <div class="position-container right">
+                    <div class="project-card">
+                       <image class="project-image" src="./assets/previewStarWars.png"/>
+                       <p class="project-text">
+                        Esse projeto traz várias informações sobre os personagens da franquia Star Wars.
+                        Essa aplicação possui uma paginação onde é possível navegar em meio a mais de 80 personagens.
+                        Ao clicar em um personagem, é aberto um modal com maiores informações sobre ele. 
+                        Todas essas informações estão sendo obtidas através da API Swapi.
+                        Foram colocados em prática consumo de API e manipulação de elementos através de Javascript.
+                       </p>
+                    </div>
+                </div>
+
+                <div class="position-container left">
+                    <div class="project-card card-reverse">
+                        <image class="project-image" src="./assets/CalculadoraImcpreview.png"/>
+                        <p class="project-text">
+                         Calculadora de Indice de massa corporal feito em HTML, CSS e PHP onde ela pega as informações do usuário como
+                         Data de nascimento, peso e altura e faz o calculo do seu percentil, também a idade do usuário é relevante para 
+                         o diagnostico, foi feito o site com base nos dados fornecidos por aqui: https://www.calcule.net/saude/tabela-imc/
+                        </p>
+                     </div>
+                </div>
+
+                     <div class="position-container right">
+                        <div class="project-card">
+                           <image class="project-image" src="./assets/previewguardioes.png"/>
+                           <p class="project-text">
+                           Meu primeiro site criado, com base no curso Profissão programador feito apenas com HTML e CSS.
+                           Ele é como se fosse um site para a venda de ingressos para assistir ao filme, mostrando trailer, atores,
+                           comentarios sobre o filme, fotos, e uma parte para Contatos
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="contatos" class="content-container">
+        <div class="form-container">
+            
+                <form
+            action="https://formspree.io/f/xeqypbee"
+            method="POST"
+            onsubmit="return verificaFormulario()">
+           
+            <h2>Deixe Seu Recado!</h2>
+            <label>
+                email:
+                <input type="email" name="email">
+            </label>
+
+            <label>
+                Nome:
+            <input type="text" name="nome">
+            </label>
+
+            <label>
+                telefone:
+            <input type="text" name="telefone">
+            </label>
+
+            <label>
+                Your Message:
+                <textarea name="message"></textarea>
+            </label>
+            
+            <button type="submit" >Enviar</button>
+            </form>
+    </div>
+</div>
+
+<footer>
+    <p class="footer_direito">Todos os direitos reservados &copy; 2024 Rafael Souza Osadzuk</p>
+</footer>
+
+    <script src="./main.js"></script>
+</body>
+</html>
