@@ -372,11 +372,13 @@ footer{
         display: flex;
         flex-direction: column;
         height: auto;
+    
     }
 
     .profile-content {
-        width: 90%; 
+        width: auto; 
         margin: 20px auto;
+        padding: 0;
     }
 
     .profile-sinopse {
@@ -403,6 +405,7 @@ footer{
         height: auto;
         padding: 20px;
         margin-bottom: 20px;
+        margin: 0;
     }
 
     .project-image {
@@ -421,7 +424,7 @@ footer{
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .hero-container {
         padding-top: 0;
         width: auto;
