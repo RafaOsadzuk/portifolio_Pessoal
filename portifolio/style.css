@@ -422,7 +422,7 @@ footer{
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .hero-container {
         padding-top: 0;
         width: auto;
