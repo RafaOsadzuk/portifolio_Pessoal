@@ -345,10 +345,9 @@ footer{
     font-family: 'Oswald' sans-serif;
 }
 
-@media  (max-width: 480px) {
+@media screen and (max-width: 470px) {
     .hero-container {
         padding-top: 0;
-        width: auto;
     }
 
     h1 {
@@ -359,106 +358,26 @@ footer{
     ul {
         width: auto;
         display: flex;
-        justify-content: space-between; 
+        justify-content: center; 
         padding: 0; 
     }
 
     li {
         padding: 10px;
-        text-align: center;
+        text-align: center; 
     }
 
     .profile-container {
         display: flex;
         flex-direction: column;
-        height: auto;
-    
-    }
-
-    .profile-content {
-        width: auto; 
-        margin: 20px auto;
-        padding: 0;
-    }
-
-    .profile-sinopse {
-        text-align: center;
-        padding: 10px;
-    }
-
-    .project-container {
         height: auto; 
-       padding-top: 20px;
-       
-    }
-
-    .content-container {
-        height: auto; 
-        width: auto;
-    }
-
-    
-
-    .project-card{
-        flex-direction: column;
-        width: auto;
-        height: auto;
-        padding: 20px;
-        margin-bottom: 20px;
-        margin: 0;
-    }
-
-    .project-image {
-        width: 220px;
-        
-        top: 0;
-       
-       
-    }
-
-
-    form {
-        width: 90%;
-        height: auto;
-        margin: 20px auto; 
-    }
-}
-
-@media (min-width: 768px) {
-    .hero-container {
-        padding-top: 0;
-        width: auto;
-    }
-
-    h1 {
-        font-size: 40px;
-        text-align: center;
-    }
-
-    ul {
-        width: auto;
-        display: flex;
-        justify-content: space-between; 
-        padding: 0; 
-    }
-
-    li {
-        padding: 10px;
-        text-align: center;
-    }
-
-    .profile-container {
-       display: flex;
-       flex-direction: column;
-    }
-
-    .profile-card{
-        margin-left: 100px;
+        align-items: center; /* Centraliza o conteúdo */
     }
 
     .profile-content {
         width: 90%; 
         margin: 20px auto;
+        max-width: 400px; /* Define uma largura máxima para evitar que saia para fora */
     }
 
     .profile-sinopse {
@@ -468,34 +387,27 @@ footer{
 
     .project-container {
         height: auto; 
-       padding-top: 20px;
-       
+        padding-top: 20px;
     }
 
     .content-container {
         height: auto; 
-        width: auto;
     }
 
-    
+    .content-container .project-card {
+        display: flex;
+    }
 
-    .project-card{
-        flex-direction: column;
-        width: auto;
-        height: auto;
-        padding: 20px;
-        margin-bottom: 20px;
+    .project-card {
+        margin-left: 0;
+        padding-left: 0;
+        display: none;
     }
 
     .project-image {
-        width: 220px;
-        
-        top: 0;
-       
-       
+        width: 200px;
+        top: 20px;
     }
-
-    
 
     form {
         width: 90%;
