@@ -358,27 +358,26 @@ footer{
     ul {
         width: auto;
         display: flex;
-        justify-content: center; 
-        padding: 0; 
+        justify-content: center; /* Corrigido para "center" */
+        padding: 0; /* Removido o preenchimento */
     }
 
     li {
         padding: 10px;
-        text-align: center; 
+        text-align: center; /* Centralizar texto */
     }
 
     .profile-container {
         display: flex;
         flex-direction: column;
-        height: auto; 
-        align-items: center; 
+        height: auto; /* Alterado para altura automática */
     }
 
     .profile-content {
-        width: 90%; 
-        margin: 20px auto;
-        max-width: 400px; 
+        width: 90%; /* Alterado para largura automática */
+        margin: 20px auto; /* Centralizar perfil */
     }
+
     .profile-sinopse {
         text-align: center;
         padding: 10px;
@@ -386,25 +385,28 @@ footer{
 
     .project-container {
         height: auto; 
-        padding-top: 20px;
+       padding-top: 20px;
     }
 
     .content-container {
         height: auto; 
     }
 
-    .content-container .project-card {
+    .content-container .project-card{
         display: flex;
+        
     }
 
-    .project-card {
-        width: 100%; 
-        max-width: 400px; 
+    .project-card{
+        margin-left: 0;
+        padding-left: 0;
+        display: none;
     }
 
     .project-image {
         width: 200px;
-        top: 20px;
+       top: 20px;
+       
     }
 
     form {
