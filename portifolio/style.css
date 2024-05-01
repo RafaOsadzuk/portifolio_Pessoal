@@ -348,6 +348,7 @@ footer{
 @media  (max-width: 480px) {
     .hero-container {
         padding-top: 0;
+        width: auto;
     }
 
     h1 {
@@ -391,6 +392,7 @@ footer{
 
     .content-container {
         height: auto; 
+        width: auto;
     }
 
     
