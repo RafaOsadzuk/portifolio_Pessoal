@@ -344,3 +344,80 @@ footer{
     color: white;
     font-family: 'Oswald' sans-serif;
 }
+
+@media screen and (max-width: 470px) {
+    .hero-container {
+        padding-top: 0;
+    }
+
+    h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    ul {
+        width: auto;
+        display: flex;
+        justify-content: center; /* Corrigido para "center" */
+        padding: 0; /* Removido o preenchimento */
+    }
+
+    li {
+        padding: 10px;
+        text-align: center; /* Centralizar texto */
+    }
+
+    .profile-container {
+        display: flex;
+        flex-direction: column;
+        height: auto; /* Alterado para altura automática */
+    }
+
+    .profile-content {
+        width: 90%; /* Alterado para largura automática */
+        margin: 20px auto; /* Centralizar perfil */
+    }
+
+    .profile-sinopse {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .project-container {
+        height: 110vh; 
+       padding-top: 20px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+
+    .content-container {
+        height: auto; 
+    }
+
+    .content-container .project-card{
+        display: flex;
+        
+    }
+
+    .project-card{
+        display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+     padding: 20px;
+    }
+
+    .project-image {
+        width: 200px;
+       top: 20px;
+       
+    }
+
+    form {
+        width: 90%;
+        height: auto;
+        margin: 20px auto; 
+    }
+}
