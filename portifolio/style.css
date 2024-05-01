@@ -371,15 +371,14 @@ footer{
         display: flex;
         flex-direction: column;
         height: auto; 
-        align-items: center; /* Centraliza o conteúdo */
+        align-items: center; 
     }
 
     .profile-content {
         width: 90%; 
         margin: 20px auto;
-        max-width: 400px; /* Define uma largura máxima para evitar que saia para fora */
+        max-width: 400px; 
     }
-
     .profile-sinopse {
         text-align: center;
         padding: 10px;
@@ -399,9 +398,8 @@ footer{
     }
 
     .project-card {
-        margin-left: 0;
-        padding-left: 0;
-        display: none;
+        width: 100%; 
+        max-width: 400px; 
     }
 
     .project-image {
