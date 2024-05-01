@@ -345,7 +345,7 @@ footer{
     font-family: 'Oswald' sans-serif;
 }
 
-@media  (min-width: 480px) {
+@media  (max-width: 480px) {
     .hero-container {
         padding-top: 0;
         width: auto;
@@ -422,7 +422,7 @@ footer{
     }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .hero-container {
         padding-top: 0;
         width: auto;
@@ -451,7 +451,7 @@ footer{
     }
 
     .profile-card{
-        margin-left: 110px;
+        margin-left: 10px;
     }
 
     .profile-content {
@@ -492,8 +492,6 @@ footer{
        
        
     }
-
-    
 
     form {
         width: 90%;
