@@ -345,7 +345,7 @@ footer{
     font-family: 'Oswald' sans-serif;
 }
 
-@media  (max-width: 480px) {
+@media  (min-width: 480px) {
     .hero-container {
         padding-top: 0;
         width: auto;
