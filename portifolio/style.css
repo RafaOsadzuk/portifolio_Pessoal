@@ -357,56 +357,113 @@ footer{
 
     ul {
         width: auto;
-        display: flex;
-        justify-content: center; /* Corrigido para "center" */
-        padding: 0; /* Removido o preenchimento */
+        display: flex;      
+        padding: 0; 
     }
 
     li {
         padding: 10px;
-        text-align: center; /* Centralizar texto */
+        text-align: center; 
     }
 
-    .profile-container {
-        display: flex;
-        flex-direction: column;
-        height: auto; /* Alterado para altura automática */
+    .profile-container{
+        width: 100%; 
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+        padding-bottom: 10px;
     }
 
     .profile-content {
-        width: 90%; /* Alterado para largura automática */
-        margin: 20px auto; /* Centralizar perfil */
+        width: 90%; 
+        max-width: 250px; 
+       
+    }
+
+    .profile-card {
+        width: 90%; 
+        max-width: 400px;
+        background: #fff;
+        padding: 30px;
+        border-radius: 8px;
+    }
+
+    .profile-image {
+        width: 120px; 
+        height: auto; 
+    }
+
+    .name-text {
+        font-size: 18px; 
+        margin-top: 10px; 
+    }
+
+    .profile-text {
+        font-size: 14px; 
+        width: 100%; 
+        margin-top: 5px; 
+    }
+
+    .profile-button {
+        width: 120px; 
+        height: 40px; 
+        font-size: 14px; 
+        margin-top: 25px; 
+    }
+    .icon-item {
+        width: 40px; 
+        height: auto; 
+        transition: 0.5s; 
+    }
+
+    .divider {
+        margin: 15px 0; 
     }
 
     .profile-sinopse {
-        text-align: center;
-        padding: 10px;
-    }
-
-    .project-container {
-        height: auto; 
-       padding-top: 20px;
+        width: 90%; 
+        max-width: 430px; 
+        font-family: 'Oswald', sans-serif;
+        color: white;
     }
 
     .content-container {
         height: auto; 
     }
 
-    .content-container .project-card{
-        display: flex;
-        
+    .project-content {
+        width: 90%; 
     }
 
-    .project-card{
-        margin-left: 0;
-        padding-left: 0;
-        display: none;
+    .position-container {
+        flex-direction: column; 
+    }
+
+    .right, .left {
+        justify-content: center; 
+    }
+
+    .project-card {
+        width: 90%; 
+        height: auto; 
+        margin-bottom: 20px; 
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
     }
 
     .project-image {
-        width: 200px;
-       top: 20px;
-       
+        width: 90%;
+        max-width: 100%; 
+        height: auto; 
+        position: static; 
+        border-radius: 8px; 
+        margin-bottom: 10px;
+    }
+
+    .project-text {
+        font-size: 14px; 
+        padding: 0 10px; 
     }
 
     form {
